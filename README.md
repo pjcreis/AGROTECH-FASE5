@@ -25,20 +25,20 @@ Para gerar a versão de produção (pasta `dist`), use `npm run build`.
 
 ## Estrutura
 
-- `index.html` — arquivo base do Vite, com a `<div id="root">`.
-- `src/main.jsx` — renderiza o componente `App` dentro da `div root`.
-- `src/App.jsx` — componente principal, que reúne os demais.
-- `src/components/` — componentes da aplicação:
-  - `Navbar.jsx` e `Footer.jsx` — reutilizados em toda a aplicação.
-  - `Home.jsx`, `Sistema.jsx`, `Guia.jsx`, `Painel.jsx`, `Contato.jsx` — as páginas.
-- `src/css/estilo.css` — estilos do projeto (CSS externo).
-- `src/js/` — lógica de interação de cada página (navegação, formulário, painel e guia).
+- `index.html` - arquivo base do Vite, com a `<div id="root">`.
+- `src/main.jsx` - renderiza o componente `App` dentro da `div root`.
+- `src/App.jsx` - componente principal, que reúne os demais.
+- `src/components/` - componentes da aplicação:
+  - `Navbar.jsx` e `Footer.jsx` - reutilizados em toda a aplicação.
+  - `Home.jsx`, `Sistema.jsx`, `Guia.jsx`, `Painel.jsx`, `Contato.jsx` - as páginas.
+- `src/css/estilo.css` - estilos do projeto (CSS externo).
+- `src/js/` - lógica de interação de cada página (navegação, formulário, painel e guia).
 
 ## Páginas
 
-- **Home** — apresentação do sistema.
-- **O Sistema** — funcionalidades e público.
-- **Guia de Culturas** — nova funcionalidade da Fase 5. Catálogo de culturas com
+- **Home** - apresentação do sistema.
+- **O Sistema** - funcionalidades e público.
+- **Guia de Culturas** - nova funcionalidade da Fase 5. Catálogo de culturas com
   busca por nome e detalhes (ciclo, sol, água, dificuldade e dica).
-- **Painel** — registro de plantios, simulação de dias, colheita e histórico.
-- **Fale Conosco** — formulário com validações.
+- **Painel** - registro de plantios, simulação de dias, colheita e histórico.
+- **Fale Conosco** - formulário com validações.
