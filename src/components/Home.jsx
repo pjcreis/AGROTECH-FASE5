@@ -10,6 +10,15 @@ function Home() {
                                 Uma solução simples para condomínios, escolas, centros comunitários e projetos sociais
                                 que querem produzir alimentos frescos em pequenos espaços, com mais controle e previsibilidade.
                             </p>
+                            <a
+                                href="https://www.youtube.com/watch?v=DsxkLdnpaEc"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-verde"
+                            >
+                                Assistir ao pitch da Fase 5
+                                <span className="visually-hidden"> (abre em nova aba)</span>
+                            </a>
                         </div>
                         <div className="col-lg-4">
                             <img
